@@ -1,0 +1,15 @@
+########################################################################################################################################################
+SETUP INSTRUCTIONS
+- Ensure Node.js and npm are installed by typing the commands "node -v && npm -v"
+- Run "npm i" to install dependencies
+- Change any settings in config.js if necessary
+- Run "npm start"
+
+########################################################################################################################################################
+PLEASE TAKE NOTE
+- Instructions and commands are mostly taken from "https://fsl.fmrib.ox.ac.uk/fslcourse/lectures/practicals/fdt1/index.html"
+
+########################################################################################################################################################
+- To use shared files (e.g. for brain masks), put it directly under your {rawDataDirectory} folder
+
+Note that the program prioritizes files in the raw data directory before those in the generated data directory. You can override this behaviour if desired.
